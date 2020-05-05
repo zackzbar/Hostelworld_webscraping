@@ -54,27 +54,57 @@ class HostelworldSpider(Spider) :
         print(name)
         print('='*55)
 
-        place1 = response.xpath('//div[@class="ms-rating-summary-block"]//div[@class="score"]/text()').extract_first()
-        rating = re.findall('[0-9]*\.?[0-9]', place1)[0]
+        try:
+            place1 = response.xpath('//div[@class="ms-rating-summary-block"]//div[@class="score"]/text()').extract_first()
+            rating = re.findall('[0-9]*\.?[0-9]', place1)[0]
+        except:
+            rating = ""
 
-        rating_cat = response.xpath('//div[@class="ms-rating-summary-block"]//p[@class="keyword"]/text()').extract_first()
+        try:
+            rating_cat = response.xpath('//div[@class="ms-rating-summary-block"]//p[@class="keyword"]/text()').extract_first()
+        except:
+            rating_cat = ""
 
-        place2 = response.xpath('//div[@class="ms-rating-summary-block"]//span/text()').extract_first()
-        reviews = re.findall('\d+', place2)[0]
+        try:
+            place2 = response.xpath('//div[@class="ms-rating-summary-block"]//span/text()').extract_first()
+            reviews = re.findall('\d+', place2)[0]
+        except:
+            reviews = ""
 
-        value_for_money = response.xpath('//ul[@class="row rating-breakdown"]//li[1]//strong/text()').extract_first()
+        try:
+            value_for_money = response.xpath('//ul[@class="row rating-breakdown"]//li[1]//strong/text()').extract_first()
+        except:
+            value_for_money = ""
 
-        security = response.xpath('//ul[@class="row rating-breakdown"]//li[2]//strong/text()').extract_first()
+        try:
+            security = response.xpath('//ul[@class="row rating-breakdown"]//li[2]//strong/text()').extract_first()
+        except:
+            security = ""
 
-        location = response.xpath('//ul[@class="row rating-breakdown"]//li[3]//strong/text()').extract_first()
+        try:
+            location = response.xpath('//ul[@class="row rating-breakdown"]//li[3]//strong/text()').extract_first()
+        except:
+            location = ""
 
-        staff = response.xpath('//ul[@class="row rating-breakdown"]//li[4]//strong/text()').extract_first()
+        try:
+            staff = response.xpath('//ul[@class="row rating-breakdown"]//li[4]//strong/text()').extract_first()
+        except:
+            staff = ""
 
-        atmosphere = response.xpath('//ul[@class="row rating-breakdown"]//li[5]//strong/text()').extract_first()
+        try:
+            atmosphere = response.xpath('//ul[@class="row rating-breakdown"]//li[5]//strong/text()').extract_first()
+        except:
+            atmosphere = ""
 
-        cleanliness = response.xpath('//ul[@class="row rating-breakdown"]//li[6]//strong/text()').extract_first()
+        try:
+            cleanliness = response.xpath('//ul[@class="row rating-breakdown"]//li[6]//strong/text()').extract_first()
+        except:
+            cleanliness = ""
 
-        facilities = response.xpath('.//ul[@class="row rating-breakdown"]//li[7]//strong/text()').extract_first()
+        try:
+            facilities = response.xpath('.//ul[@class="row rating-breakdown"]//li[7]//strong/text()').extract_first()
+        except:
+            facilities = ""
 
         # free = 
 
