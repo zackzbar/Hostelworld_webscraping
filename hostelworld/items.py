@@ -9,10 +9,9 @@ import scrapy
 
 
 class HostelworldItem(scrapy.Item):
-    # kind = scrapy.Field()
+    kind = scrapy.Field()
     # distance = scrapy.Field()
-    # private = scrapy.Field()
-    # dorm = scrapy.Field()
+    # price = scrapy.Field()
     city = scrapy.Field()
     country = scrapy.Field()
     name = scrapy.Field()

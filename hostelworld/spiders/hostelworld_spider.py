@@ -14,8 +14,10 @@ class HostelworldSpider(Spider) :
                      'https://www.hostelworld.com/hostels/Hue/Vietnam']
 
     def parse(self, response) :
-        num = int(response.xpath('//span[@class="numPropertiesReturnedFromSearch"]/text()').extract_first())
-        num = math.ceil(num/30)
+        # num = int(response.xpath('//span[@class="numPropertiesReturnedFromSearch"]/text()').extract_first())
+        # num = math.ceil(num/30)
+
+        num = 1
 
         num_pages = [f'?page={i+1}' for i in range(num)]
 
@@ -36,25 +38,34 @@ class HostelworldSpider(Spider) :
 
     def parse_results_page(self, response) :
         hostel_urls = response.xpath('//a[@class="hwta-property-link"]/@href').extract()
-        hostel_urls = list(set(hostel_urls))[1:]
+        #hostel_urls = list(set(hostel_urls))[1:]
+        hostel_urls = hostel_urls[1::4]
 
         print('='*55)
         print(len(hostel_urls))
         print('='*55)
 
-        for url in hostel_urls:
-            yield Request(url=url, callback=self.parse_hostel_page)
+        kind = list(map(str.strip, response.xpath('//div[@class="proptype featureline"]/text()').extract()))
+
+        # place = response.xpath('//div[@class="addressline"]/text()').extract()
+        # place = list(map(lambda x: re.findall('[0-9]*\.?[0-9]', x), distance[1::2]))
+        # distance = []
+        # for x in place:
+
+        
+        # price = response.xpath('//span[@class="price"]/text()').extract()
+
+        # meta = {'kind':kind}#,
+                # 'distance':distance,
+                # 'price':price}
+
+        zipped = zip(hostel_urls, kind)
+
+        for url, kind in zipped:
+            yield Request(url=url, callback=self.parse_hostel_page, meta={'kind':kind})
 
     def parse_hostel_page(self, response) :
         
-        # kind = 
-
-        # distance = 
-
-        # private = 
-
-        # dorm = 
-
         city = response.xpath('//span[@class="adddress"]/a[2]/text()').extract_first()
         print('='*55)
         print(city)
@@ -131,10 +142,9 @@ class HostelworldSpider(Spider) :
 
 
         item = HostelworldItem()
-        # item['kind'] = kind
+        item['kind'] = response.meta['kind']
         # item['distance'] = distance
-        # item['private'] = private
-        # item['dorm'] = dorm
+        # item['price'] = price
         item['city'] = city
         item['country'] = country
         item['name'] = name
