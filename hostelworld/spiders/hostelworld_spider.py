@@ -5,15 +5,21 @@ import re
 class HostelworldSpider(Spider) :
     name = 'hostelworld_spider'
     allowed_urls = ['https://www.hostelworld.com']
-    start_urls = ['https://www.hostelworld.com/hostels/Hanoi/Vietnam']
+    start_urls = ['https://www.hostelworld.com/hostels/Hanoi/Vietnam', 'https://www.hostelworld.com/hostels/Bangkok/Thailand']
 
     def parse(self, response) :
-        num_pages = 6
+        num = 3
 
-        result_urls = [f'https://www.hostelworld.com/hostels/Hanoi/Vietnam?page={i+1}' for i in range(num_pages)]
+        num_pages = [f'?page={i+1}' for i in range(num)]
+
+        result_urls = []
+        for x in self.start_urls:
+            for y in num_pages:
+                result_urls.append(x + y)
 
         print('='*55)
         print(len(result_urls))
+        print(result_urls)
         print('='*55)
 
         for url in result_urls:
