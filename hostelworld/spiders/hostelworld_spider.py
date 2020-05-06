@@ -1,14 +1,21 @@
 from scrapy import Spider, Request
 from hostelworld.items import HostelworldItem
 import re
+import math
 
 class HostelworldSpider(Spider) :
     name = 'hostelworld_spider'
     allowed_urls = ['https://www.hostelworld.com']
-    start_urls = ['https://www.hostelworld.com/hostels/Hanoi/Vietnam', 'https://www.hostelworld.com/hostels/Bangkok/Thailand']
+    start_urls =    ['https://www.hostelworld.com/hostels/Hanoi/Vietnam', 
+                     # 'https://www.hostelworld.com/hostels/Bangkok/Thailand',
+                     # 'https://www.hostelworld.com/hostels/Ho-Chi-Minh/Vietnam',
+                     # 'https://www.hostelworld.com/hostels/Hoi-An/Vietnam',
+                     # 'https://www.hostelworld.com/hostels/Da-Nang/Vietnam',
+                     'https://www.hostelworld.com/hostels/Hue/Vietnam']
 
     def parse(self, response) :
-        num = 3
+        num = int(response.xpath('//span[@class="numPropertiesReturnedFromSearch"]/text()').extract_first())
+        num = math.ceil(num/30)
 
         num_pages = [f'?page={i+1}' for i in range(num)]
 

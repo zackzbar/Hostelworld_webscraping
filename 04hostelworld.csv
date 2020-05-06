@@ -1,0 +1,180 @@
+atmosphere,city,cleanliness,country,facilities,location,name,rating,rating_cat,reviews,security,staff,value_for_money
+7.8,Ho Chi Minh,8.9,Vietnam,8.7,9.5,City Backpackers Hostel,8.9,Fabulous,253,9.0,9.3,9.3
+7.3,Ho Chi Minh,7.6,Vietnam,7.5,7.8,Ben Thanh Dorm House,7.8,Very Good,20,7.8,8.4,8.4
+8.1,Ho Chi Minh,8.3,Vietnam,7.9,9.1,WillHome Hostel,8.6,Fabulous,164,9.1,8.9,8.5
+7.5,Ho Chi Minh,7.5,Vietnam,7.4,8.8,24h Saigon Hotel,7.9,Very Good,74,8.2,8.0,7.9
+8.0,Ho Chi Minh,10.0,Vietnam,9.0,8.0,TeeUP Home,9.2,Superb,30,10.0,10.0,9.3
+7.8,Ho Chi Minh,9.4,Vietnam,8.8,9.0,S Phuot Airport Hostel,8.9,Fabulous,92,9.0,8.8,9.6
+9.0,Ho Chi Minh,8.5,Vietnam,8.5,9.6,The Like Hostel & Cafe,9.0,Superb,1185,9.3,9.3,9.1
+7.0,Ho Chi Minh,7.5,Vietnam,7.4,9.5,The Prince of Whales Hostel & Bar,8.2,Fabulous,117,9.4,9.0,8.1
+8.3,Hanoi,8.3,Vietnam,8.2,9.5,Hanoi City Backpackers Hostel,8.7,Fabulous,547,8.8,9.0,9.0
+8.9,Hanoi,9.1,Vietnam,8.3,9.7,Hanoi Little Town Hotel,9.0,Superb,74,9.1,8.9,8.9
+8.4,Hanoi,9.1,Vietnam,9.0,9.4,Vietnam Cheers Hostel,9.1,Superb,350,9.4,9.1,9.3
+7.2,Hanoi,7.6,Vietnam,8.2,9.3,Hay Hostel Hanoi Old Quarter,8.4,Fabulous,158,8.9,8.8,8.6
+8.9,Hanoi,10.0,Vietnam,9.7,7.9,Chip’s House,9.4,Superb,27,9.9,9.7,9.8
+8.6,Hue,9.2,Vietnam,8.9,9.8,Why Not Hostel,9.2,Superb,1067,8.9,9.7,9.5
+7.2,Da Nang,9.1,Vietnam,8.2,8.8,Rom Casa Hostel Da Nang,8.2,Fabulous,689,8.3,7.8,7.8
+9.9,Hoi An,9.9,Vietnam,9.7,9.9,The Imperfect Hostels Downtown & Bar,9.9,Superb,534,9.9,10.0,9.6
+8.9,Hoi An,9.8,Vietnam,9.6,8.7,Terra Cotta Homestay and Hostel,9.5,Superb,266,9.6,10.0,9.6
+9.0,Hoi An,9.5,Vietnam,10.0,9.5,Herbal Tea Homestay,9.6,Superb,12,9.5,10.0,9.5
+9.7,Hoi An,9.6,Vietnam,9.2,9.8,Hoi An LoveLy Hostel,9.6,Superb,272,9.6,9.8,9.8
+9.4,Hoi An,9.1,Vietnam,9.0,9.6,Tribee Ede Hostel & Bar,9.3,Superb,929,9.3,9.7,9.4
+9.4,Hoi An,9.4,Vietnam,9.2,9.1,Cloudy Apartments,9.4,Superb,551,9.7,9.9,9.6
+8.2,Hoi An,8.4,Vietnam,8.2,9.4,Leo Leo Hostel,8.6,Fabulous,426,8.2,8.9,8.8
+,Hoi An,,Vietnam,,,Chez Le Anh Homestay,9.8,Superb,4,,,
+9.2,Bangkok,9.7,Thailand,9.5,8.4,Kloem Hostel,9.4,Superb,120,9.7,9.6,9.4
+8.5,Bangkok,9.3,Thailand,9.0,8.8,Everyday Bangkok Hostel,9.1,Superb,1445,9.2,9.4,9.2
+7.8,Bangkok,9.6,Thailand,8.6,9.2,D Hostel Bangkok,8.8,Fabulous,1257,9.0,8.5,9.0
+9.3,Bangkok,9.0,Thailand,8.9,9.5,Mad Monkey Bangkok,9.1,Superb,3768,9.1,9.1,8.9
+8.6,Bangkok,9.3,Thailand,8.7,9.6,NapPark Hostel at Khao San,9.1,Superb,6479,9.3,8.9,9.0
+8.9,Bangkok,9.4,Thailand,8.9,9.1,U-Baan Guesthouse,9.3,Superb,1366,9.3,9.9,9.5
+9.1,Bangkok,9.4,Thailand,9.3,9.7,BED STATION Hostel Khaosan,9.3,Superb,1084,9.5,8.9,9.1
+8.6,Bangkok,9.0,Thailand,9.1,9.1,Here Hostel,8.9,Fabulous,1616,9.2,8.4,8.7
+8.7,Bangkok,9.7,Thailand,8.7,9.7,Hom Hostel & Cooking Club,9.4,Superb,186,9.7,10.0,9.3
+8.5,Bangkok,9.7,Thailand,9.3,9.7,Baan Nampetch Hostel,9.4,Superb,736,9.9,9.7,9.3
+8.4,Bangkok,9.8,Thailand,9.5,9.1,BED STATION Hostel Ratchthewi,9.3,Superb,4133,9.6,9.2,9.2
+7.3,Bangkok,8.7,Thailand,8.4,9.0,Lub d Bangkok Siam,8.6,Fabulous,2735,9.2,8.9,8.3
+9.0,Bangkok,9.2,Thailand,9.1,9.4,Once Again Hostel,9.3,Superb,2810,9.5,9.5,9.2
+8.0,Bangkok,9.6,Thailand,9.0,7.2,Yaks House Hostel,8.7,Fabulous,138,9.3,9.0,9.0
+9.7,Bangkok,9.6,Thailand,9.6,8.9,The Yard Hostel Bangkok,9.5,Superb,1286,9.7,9.7,9.3
+8.5,Bangkok,9.4,Thailand,8.9,9.3,Niras Bankoc Cultural Hostel,9.1,Superb,3150,9.5,9.2,9.1
+9.3,Bangkok,9.0,Thailand,8.9,8.9,Bodega Bangkok Social Hostel,9.2,Superb,4131,9.2,9.4,9.4
+8.9,Bangkok,9.3,Thailand,9.1,8.9,Luk Hostel,9.1,Superb,387,9.3,9.4,9.2
+9.3,Bangkok,9.6,Thailand,9.3,9.7,Jam Hostel Bangkok,9.6,Superb,816,9.8,9.7,9.4
+8.9,Bangkok,9.9,Thailand,9.6,9.2,Kinnon Deluxe Hostel Coworking Cafe,9.6,Superb,120,9.8,9.9,9.6
+9.1,Bangkok,8.9,Thailand,8.9,9.1,All We Need Is Hostel,9.1,Superb,479,9.3,9.4,9.2
+9.3,Bangkok,9.0,Thailand,9.1,9.7,Bodega Khao San Party Hostel,9.3,Superb,307,9.1,9.3,9.4
+7.8,Bangkok,8.2,Thailand,8.7,8.7,3Howw Hostel Khaosan,8.5,Fabulous,470,8.8,8.2,9.5
+9.0,Bangkok,9.7,Thailand,9.4,9.6,Smile Society,9.6,Superb,2691,9.8,9.9,9.8
+9.0,Bangkok,8.5,Thailand,8.1,9.5,The Oasis Hostel,8.9,Fabulous,586,8.5,9.5,9.3
+9.7,Bangkok,9.9,Thailand,9.8,9.6,HOLY SHEET Hostel,9.8,Superb,475,9.8,9.9,9.7
+8.5,Bangkok,9.7,Thailand,9.7,8.7,Rest Is More Hostel,9.4,Superb,65,9.8,9.6,9.7
+8.7,Bangkok,9.3,Thailand,8.9,7.2,Nivas Siam Hostel,8.7,Fabulous,279,8.5,9.3,9.2
+8.4,Bangkok,9.7,Thailand,9.4,8.8,AMA Hostel Bangkok,9.3,Superb,226,9.8,9.4,9.4
+8.8,Bangkok,9.2,Thailand,8.7,9.4,Everyday Bangkok Hostel@Khaosan,9.1,Superb,1336,9.3,9.3,9.0
+8.7,Hoi An,9.5,Vietnam,9.1,9.6,Cucumber,9.3,Superb,141,9.4,9.2,9.7
+8.2,Hoi An,9.1,Vietnam,9.1,8.4,Little Leo Homestay and Hostel,8.9,Fabulous,454,9.1,9.1,9.1
+9.2,Hoi An,8.9,Vietnam,8.8,9.5,DK's House,9.2,Superb,546,9.2,9.5,9.4
+9.0,Hoi An,9.1,Vietnam,9.2,7.2,Hoi An Vietnam Backpacker Hostels,8.8,Fabulous,1545,9.4,9.0,8.6
+8.4,Hoi An,8.0,Vietnam,8.4,9.1,The Serendipity Hostel,8.5,Fabulous,91,8.1,9.1,8.6
+8.9,Hoi An,9.3,Vietnam,9.2,9.8,Tribee Cotu Hostel,9.4,Superb,438,9.6,9.5,9.3
+10.0,Hoi An,10.0,Vietnam,9.3,8.0,Hoian River Palm Hotel,9.5,Superb,61,10.0,9.3,10.0
+8.8,Hoi An,8.6,Vietnam,8.8,9.6,The Destination Hostel & Bar,9.2,Superb,29,9.5,9.9,9.4
+8.8,Hoi An,9.5,Vietnam,9.3,8.8,Lazy Bear Hostel,9.3,Superb,571,9.4,9.7,9.6
+9.7,Hoi An,10.0,Vietnam,9.3,9.7,Ha My Beach Homestay Hoi An,9.8,Superb,100,10.0,10.0,10.0
+9.5,Hoi An,9.2,Vietnam,9.5,8.4,Cococha Hostel & Pool Club,9.2,Superb,263,9.0,9.6,9.4
+9.3,Hoi An,9.2,Vietnam,9.0,9.8,Hoi An The Imperfect Hostels Original,9.4,Superb,462,9.4,9.8,9.4
+9.5,Hoi An,10.0,Vietnam,10.0,8.5,Melody Boutique Villa Hoi An,9.6,Superb,23,10.0,10.0,9.5
+9.0,Hoi An,9.3,Vietnam,9.3,8.8,Hoi an Life Villa,9.3,Superb,206,9.7,9.5,9.7
+9.6,Hoi An,10.0,Vietnam,9.9,9.6,Blue Clouds Hotel,9.9,Superb,397,10.0,10.0,10.0
+9.5,Hoi An,9.3,Vietnam,9.4,9.1,The Seaside Bungalow Hostel and Bar,9.4,Superb,893,9.5,9.8,9.6
+8.6,Hoi An,8.8,Vietnam,9.2,8.7,Bed Station Hostel & Pool Bar Hoi An,8.9,Fabulous,148,8.8,9.2,9.3
+9.3,Hoi An,9.3,Vietnam,9.7,8.2,Sun Paradise Villa,9.3,Superb,342,9.4,9.9,9.7
+9.6,Hoi An,9.6,Vietnam,9.5,9.3,The Light Villa Hoi An,9.6,Superb,62,9.5,9.6,9.7
+9.6,Hoi An,8.8,Vietnam,9.0,9.8,Tribee Kinh Hostel & Bar,9.3,Superb,1978,9.3,9.6,9.3
+8.5,Hoi An,9.4,Vietnam,9.0,9.5,Backhome Hostel and Bar,9.2,Superb,497,9.2,9.2,9.3
+8.9,Hoi An,8.0,Vietnam,8.5,9.8,Good Morning Hoi An Homestay,9.0,Superb,53,8.9,9.6,9.1
+6.1,Da Nang,7.1,Vietnam,6.8,9.4,City Hostel Danang,7.9,Very Good,204,8.1,9.5,8.2
+8.3,Da Nang,9.5,Vietnam,9.5,9.2,The Glomad Danang Hotel,9.2,Superb,77,9.6,9.2,9.5
+6.7,Da Nang,6.5,Vietnam,6.8,8.2,Loca Danang Hostel,7.2,Very Good,40,7.3,7.5,7.3
+7.6,Da Nang,8.3,Vietnam,7.9,9.3,Go Home Homestay & Coffee,8.4,Fabulous,46,8.3,8.7,8.7
+6.1,Da Nang,6.9,Vietnam,6.6,9.3,Dango Hostel,7.6,Very Good,112,8.4,8.0,8.0
+8.8,Da Nang,10.0,Vietnam,9.2,8.4,Robin Hotel Danang,9.2,Superb,30,9.6,9.2,9.2
+8.4,Da Nang,9.8,Vietnam,9.5,9.8,"The Rooster Cafe, Dormitory & Studio",9.5,Superb,18,9.8,9.6,9.8
+7.9,Da Nang,9.2,Vietnam,8.7,9.2,Seahorse Hostel & Bar by HAVI,8.9,Fabulous,345,8.8,9.3,9.2
+8.0,Da Nang,9.1,Vietnam,9.0,9.3,Roll Hostel,9.1,Superb,278,9.3,9.7,9.3
+8.5,Da Nang,9.1,Vietnam,9.1,9.4,Hana Homestay Danang,9.2,Superb,51,9.5,9.5,9.5
+,Da Nang,,Vietnam,,,Monalisa Apartment,,No Rating,0,,,
+8.9,Da Nang,9.7,Vietnam,9.6,9.2,The Memory Hostel - Danang Beach,9.5,Superb,64,9.8,9.8,9.5
+7.2,Da Nang,6.8,Vietnam,8.4,8.0,Danang Capsule Hotel,8.2,Fabulous,20,9.6,8.0,9.2
+6.7,Da Nang,6.9,Vietnam,7.1,8.9,The Secret Garden,7.6,Very Good,77,7.8,8.0,7.8
+10.0,Da Nang,9.3,Vietnam,8.7,9.3,Nang Capsule Hostel,9.6,Superb,15,10.0,10.0,10.0
+7.3,Da Nang,8.9,Vietnam,8.7,8.4,Kon-Tiki DaNang Hostel,8.6,Fabulous,230,8.9,8.7,9.3
+6.4,Da Nang,6.8,Vietnam,7.2,8.4,Kat Hostel,7.9,Very Good,5,10.0,8.0,8.4
+8.0,Da Nang,9.6,Vietnam,9.2,7.2,Night Sky Hotel,9.1,Superb,48,10.0,10.0,9.6
+9.0,Da Nang,10.0,Vietnam,10.0,10.0,Oasis Hotel & Apartment,9.9,Superb,4,10.0,10.0,10.0
+6.3,Da Nang,7.4,Vietnam,7.9,7.3,Fedora Hostel,7.7,Very Good,110,8.9,8.1,7.9
+4.0,Da Nang,2.7,Vietnam,2.7,8.7,Posiki Dorm Hostel,4.9,Rating,9,5.3,5.3,5.3
+7.0,Da Nang,7.0,Vietnam,7.0,8.5,Green Balcony Hostel,7.8,Very Good,4,9.0,7.5,8.5
+6.3,Da Nang,9.0,Vietnam,8.5,8.5,Lotus Rock Hotel,8.4,Fabulous,8,9.5,8.5,8.5
+8.5,Da Nang,9.3,Vietnam,9.0,9.0,Lighthouse Danang Hostel,9.1,Superb,369,8.8,9.5,9.1
+7.5,Da Nang,7.4,Vietnam,7.5,8.5,Ten to Ten Danang,8.3,Fabulous,100,9.0,9.0,8.9
+8.6,Da Nang,8.8,Vietnam,8.8,8.8,Travellers Nest Hostel,8.9,Fabulous,351,9.1,9.4,9.0
+6.6,Da Nang,7.5,Vietnam,7.1,9.2,The Vietnam Hostel,7.9,Very Good,31,8.8,8.0,8.0
+9.3,Da Nang,10.0,Vietnam,8.7,8.0,Moon Hotel & Apartment,9.2,Superb,3,9.3,10.0,9.3
+10.0,Hue,10.0,Vietnam,10.0,10.0,Hue Sweethouse 2 Homestay,10.0,Superb,28,10.0,10.0,10.0
+9.3,Hue,8.3,Vietnam,8.8,9.3,Kims Homestay,9.0,Superb,57,9.3,9.3,9.0
+8.7,Hue,10.0,Vietnam,10.0,9.3,Hue Amy Homestay,9.6,Superb,51,9.3,10.0,10.0
+8.1,Hue,9.3,Vietnam,9.6,7.4,Forever Young Hostel,9.0,Superb,116,9.6,9.7,9.5
+8.8,Hue,9.6,Vietnam,9.6,8.4,Sahi Homestay Retreat,9.0,Superb,5,8.8,8.8,9.2
+8.8,Hue,9.7,Vietnam,9.2,9.2,The Dreamers House,9.4,Superb,33,9.5,9.9,9.6
+8.6,Hue,8.3,Vietnam,8.6,9.5,New Life Homestay,9.0,Superb,334,8.9,9.8,9.3
+8.2,Hue,9.2,Vietnam,8.8,9.5,Khe Sanh Homestay,9.1,Superb,918,9.3,9.5,9.4
+9.7,Hue,9.6,Vietnam,9.6,9.5,Loving Home Hue,9.7,Superb,46,9.8,10.0,9.9
+7.4,Hue,8.9,Vietnam,7.4,9.1,Buncha House,8.5,Fabulous,204,8.5,9.8,8.8
+8.1,Hue,8.3,Vietnam,8.2,9.7,Hue Melody Hostel,8.9,Fabulous,207,9.1,9.6,9.4
+8.5,Hue,7.7,Vietnam,7.6,9.3,Hue Vietnam Backpacker Hostels,8.4,Fabulous,2044,8.5,8.7,8.3
+10.0,Hue,10.0,Vietnam,10.0,10.0,Hue Diep's Homestay,10.0,Superb,2,10.0,10.0,10.0
+9.0,Hue,9.0,Vietnam,9.0,10.0,Hue Sweethouse Homestay,9.4,Superb,5,9.0,10.0,10.0
+9.1,Hue,8.7,Vietnam,8.6,9.6,Freedom Hostel,9.2,Superb,393,9.2,9.5,9.4
+8.8,Hue,9.4,Vietnam,9.0,9.9,Hue Happy Homestay,9.4,Superb,1985,9.5,9.7,9.6
+9.4,Hue,9.6,Vietnam,9.7,8.3,Nano Eco Hostel,9.4,Superb,34,9.8,9.5,9.5
+8.0,Hue,8.3,Vietnam,7.9,9.7,Bonjour Hostel,8.8,Fabulous,304,9.2,9.6,8.9
+2.0,Hue,6.0,Vietnam,2.0,6.0,Baloo Hostel,3.4,Rating,3,4.0,2.0,2.0
+8.2,Hue,9.2,Vietnam,8.9,9.2,Sunny A Hotel,9.1,Superb,191,9.4,9.4,9.2
+5.3,Hue,8.0,Vietnam,7.7,8.3,TOVO Hostel,7.4,Very Good,11,7.7,7.0,7.7
+8.5,Hue,9.7,Vietnam,8.3,8.9,Charming Riverside Hotel,9.1,Superb,285,9.4,9.7,9.4
+8.4,Hue,9.3,Vietnam,8.2,9.3,IBIZA Guest House,9.1,Superb,356,9.3,9.5,9.3
+8.3,Hue,8.8,Vietnam,8.4,9.8,Amy 2 Hostel Hue,9.1,Superb,271,9.3,9.8,9.6
+,Hue,,Vietnam,,,La Luz Del Sol Homestay,,No Rating,0,,,
+8.5,Hue,8.8,Vietnam,9.3,9.0,Nam Phuong Riverside Villa,9.2,Superb,44,8.8,10.0,10.0
+8.4,Hue,9.5,Vietnam,9.0,9.8,Shark Hostel,9.3,Superb,141,9.3,9.8,9.6
+7.9,Hue,8.7,Vietnam,8.5,9.6,The Dreamers,8.9,Fabulous,464,9.0,9.4,9.2
+7.9,Hue,8.8,Vietnam,8.6,9.8,Bon Ami Hostel,9.0,Superb,179,9.3,9.6,9.2
+7.4,Hanoi,9.4,Vietnam,8.6,9.1,Hanoi House Hostel & Travel,8.7,Fabulous,94,9.3,8.6,8.6
+8.3,Hanoi,9.1,Vietnam,8.9,9.5,Backy Poshtel,9.1,Superb,135,9.4,9.2,9.4
+8.8,Hanoi,9.6,Vietnam,9.1,9.9,O Quan Chuong Homestay and Coffee,9.4,Superb,16,9.4,9.4,9.5
+8.6,Hanoi,8.8,Vietnam,8.9,9.8,Cocoon Inn Hanoi,9.1,Superb,1959,9.5,9.3,9.1
+7.5,Hanoi,7.8,Vietnam,7.8,9.2,Suite As Hostel,8.3,Fabulous,48,8.5,9.0,8.3
+8.9,Hanoi,9.1,Vietnam,9.0,8.5,7 Fridays Hostel,9.1,Superb,358,9.6,9.2,9.1
+8.3,Hanoi,7.6,Vietnam,7.7,9.9,Halley Hostel,8.7,Fabulous,124,9.2,9.3,8.7
+8.5,Hanoi,8.9,Vietnam,8.4,9.3,Hanoi Wonderland Homestay,8.9,Fabulous,12,8.7,9.8,8.9
+8.3,Hanoi,8.0,Vietnam,8.4,9.7,Old Quarter H&H Hostel,8.9,Fabulous,77,9.3,9.6,9.2
+7.7,Hanoi,8.1,Vietnam,8.5,9.2,Cocoon Inn II,8.6,Fabulous,243,9.1,9.1,8.8
+9.0,Hanoi,9.8,Vietnam,9.5,9.8,Little Charm Hanoi Hostel,9.6,Superb,1218,9.7,9.4,9.6
+8.9,Hanoi,9.5,Vietnam,9.2,9.9,Nexy Hostel,9.5,Superb,1906,9.7,9.7,9.3
+8.5,Hanoi,8.5,Vietnam,8.6,9.4,Babylon Garden Hostel,8.9,Fabulous,1348,9.4,9.0,8.8
+8.9,Hanoi,8.3,Vietnam,8.7,9.6,Hanoi Vietnam Backpacker Hostels Downtown,8.8,Fabulous,4741,8.8,8.7,8.8
+8.8,Hanoi,9.4,Vietnam,9.3,9.8,Luxury Backpackers,9.4,Superb,924,9.7,9.6,9.5
+9.1,Hanoi,9.1,Vietnam,9.1,9.3,Republik Backpackers Hostel,9.3,Superb,1516,9.3,9.6,9.4
+8.1,Hanoi,9.3,Vietnam,8.9,9.7,Hanoi Old Quarter Hostel,9.3,Superb,513,9.6,9.9,9.4
+8.1,Hanoi,8.7,Vietnam,8.9,9.6,Hanoi Tomodachi House,9.0,Superb,776,9.0,9.6,9.3
+8.7,Hanoi,8.3,Vietnam,8.3,9.6,Flipside Hostel,8.7,Fabulous,1187,9.0,8.9,8.5
+9.1,Hanoi,9.4,Vietnam,9.1,9.8,Old Quarter View Hanoi Hostel,9.4,Superb,3206,9.6,9.4,9.4
+7.7,Hanoi,8.1,Vietnam,8.3,9.1,Hanoi Amazing Hostel,8.4,Fabulous,219,8.6,8.7,8.5
+9.0,Hanoi,8.6,Vietnam,8.7,9.6,Hanoi Central Backpackers Hostel,9.1,Superb,4404,9.3,9.1,9.2
+9.0,Hanoi,8.9,Vietnam,9.1,9.7,Hanoi Buffalo Hostel,9.3,Superb,864,9.5,9.4,9.3
+8.2,Hanoi,9.6,Vietnam,9.2,9.8,Hanoi Culture Hostel,9.4,Superb,225,9.8,9.6,9.6
+9.1,Hanoi,9.8,Vietnam,9.3,10.0,Hanoi Unique Hotel,9.7,Superb,9,9.8,10.0,9.8
+8.1,Ho Chi Minh,9.0,Vietnam,8.7,9.8,Vy Da Backpacker Hostel,9.1,Superb,462,9.5,9.6,9.2
+7.5,Ho Chi Minh,9.0,Vietnam,8.5,9.5,Alleyway Hostel,9.0,Superb,221,9.7,9.7,9.5
+8.0,Ho Chi Minh,8.0,Vietnam,8.0,9.3,Saigon Gao Hostel,8.4,Fabulous,12,8.7,8.7,8.2
+8.6,Ho Chi Minh,8.7,Vietnam,8.5,9.2,Saigon Hub Hostel,9.0,Superb,853,9.4,9.3,9.1
+8.9,Ho Chi Minh,9.4,Vietnam,8.9,9.9,Long Hostel,9.3,Superb,3195,9.4,9.2,9.6
+8.7,Ho Chi Minh,8.9,Vietnam,8.8,9.6,Saigon Old Town Coffee & Hostel,9.2,Superb,20,9.6,9.5,9.2
+8.5,Ho Chi Minh,8.4,Vietnam,8.5,9.7,Kiki's House Saigon,8.9,Fabulous,971,9.2,9.0,9.2
+7.1,Ho Chi Minh,10.0,Vietnam,9.1,9.7,Ngoclinh Hotel,9.1,Superb,306,9.4,9.4,9.1
+2.0,Ho Chi Minh,2.0,Vietnam,2.0,2.0,Amber Hostel,2.0,Rating,3,2.0,2.0,2.0
+8.1,Ho Chi Minh,7.9,Vietnam,7.6,9.2,Flipside Hostel - HCM,8.4,Fabulous,1200,8.6,8.7,8.4
+8.8,Ho Chi Minh,9.5,Vietnam,9.5,9.3,Rest House - Pink Church,9.5,Superb,21,9.8,9.7,9.5
+5.2,Ho Chi Minh,6.0,Vietnam,5.4,7.1,BFF Saigon Hostel,6.0,Good,314,6.2,6.1,6.2
+7.9,Ho Chi Minh,9.6,Vietnam,8.9,9.8,The Dorm Saigon,9.2,Superb,121,9.4,9.4,9.1
+8.6,Ho Chi Minh,8.0,Vietnam,8.0,9.4,Hangout Hostel HCM,8.5,Fabulous,1771,8.7,8.6,8.4
+7.5,Ho Chi Minh,8.6,Vietnam,8.3,8.9,Saigon Fantastic Hostel,8.6,Fabulous,186,8.9,9.1,9.0
+7.6,Ho Chi Minh,9.0,Vietnam,8.7,9.1,9 Hostel and Rooftop,8.8,Fabulous,119,9.2,9.0,9.2
+8.9,Ho Chi Minh,9.3,Vietnam,8.8,9.8,Tam Hostel Saigon,9.3,Superb,385,9.6,9.6,9.3
+7.3,Ho Chi Minh,7.5,Vietnam,7.5,8.9,Vietnam Guide Home Hostel,8.0,Fabulous,757,8.2,8.5,8.4
+8.8,Ho Chi Minh,7.6,Vietnam,8.1,9.6,The Hideout,8.6,Fabulous,3238,8.4,8.8,8.9
+8.3,Ho Chi Minh,8.0,Vietnam,8.1,9.1,Ho Chi Minh Vietnam Backpacker Hostels Saigon,8.4,Fabulous,689,8.8,8.5,8.3
+7.7,Ho Chi Minh,8.6,Vietnam,8.3,9.0,Vy Da Backpacker Hostel 2,8.7,Fabulous,134,9.1,9.0,9.3
+8.2,Ho Chi Minh,8.7,Vietnam,8.5,9.6,Prei Nokor Hostel,8.9,Fabulous,566,9.2,9.1,9.0
