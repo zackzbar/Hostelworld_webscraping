@@ -47,22 +47,25 @@ class HostelworldSpider(Spider) :
 
         kind = list(map(str.strip, response.xpath('//div[@class="proptype featureline"]/text()').extract()))
 
-        # place = response.xpath('//div[@class="addressline"]/text()').extract()
-        # place = list(map(lambda x: re.findall('[0-9]*\.?[0-9]', x), distance[1::2]))
-        # distance = []
-        # for x in place:
+        place = response.xpath('//div[@class="addressline"]/text()').extract()
+        place = list(map(lambda x: re.findall('[0-9]*\.?[0-9]', x), place[1::2]))
+        distance = []
+        for x in place:
+            for y in x:
+                distance.append(y)
 
-        
-        # price = response.xpath('//span[@class="price"]/text()').extract()
+        price = response.xpath('//span[@class="price"]/text()').extract()
 
         # meta = {'kind':kind}#,
                 # 'distance':distance,
                 # 'price':price}
 
-        zipped = zip(hostel_urls, kind)
+        zipped = zip(hostel_urls, kind, distance, price)
 
-        for url, kind in zipped:
-            yield Request(url=url, callback=self.parse_hostel_page, meta={'kind':kind})
+        for url, kind, distance, price in zipped:
+            yield Request(url=url, callback=self.parse_hostel_page, meta={'kind':kind, 'distance':distance, 'price':price})
+
+
 
     def parse_hostel_page(self, response) :
         
@@ -143,8 +146,8 @@ class HostelworldSpider(Spider) :
 
         item = HostelworldItem()
         item['kind'] = response.meta['kind']
-        # item['distance'] = distance
-        # item['price'] = price
+        item['distance'] = response.meta['distance']
+        item['price'] = response.meta['price']
         item['city'] = city
         item['country'] = country
         item['name'] = name

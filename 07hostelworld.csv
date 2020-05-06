@@ -1,0 +1,61 @@
+atmosphere,city,cleanliness,country,distance,facilities,kind,location,name,price,rating,rating_cat,reviews,security,staff,value_for_money
+9.0,Hanoi,8.9,Vietnam,0.6,9.0,Hostel,9.7,Hanoi Buffalo Hostel,US$7.06,9.3,Superb,864,9.5,9.4,9.3
+8.9,Hanoi,9.1,Vietnam,1,8.3,Hotel,9.7,Hanoi Little Town Hotel,US$9.60,9.0,Superb,74,9.1,8.9,8.9
+8.5,Hanoi,8.9,Vietnam,0.6,8.4,Hotel,9.3,Hanoi Wonderland Homestay,US$13.70,8.9,Fabulous,12,8.7,9.8,8.9
+8.3,Hanoi,8.1,Vietnam,1,8.6,Hostel,9.7,Old Quarter H&H Hostel,US$6.42,9.0,Superb,77,9.3,9.6,9.3
+8.4,Hanoi,9.1,Vietnam,0.8,9.0,Hostel,9.4,Vietnam Cheers Hostel,US$5.93,9.1,Superb,350,9.4,9.1,9.3
+7.7,Hanoi,8.1,Vietnam,0.9,8.3,Hostel,9.1,Hanoi Amazing Hostel,US$5.27,8.4,Fabulous,219,8.6,8.7,8.5
+7.7,Hanoi,8.1,Vietnam,0.7,8.5,Hostel,9.2,Cocoon Inn II,US$5.00,8.6,Fabulous,243,9.1,9.1,8.8
+9.1,Hanoi,9.8,Vietnam,0.5,9.3,Hotel,10.0,Hanoi Unique Hotel,US$8.00,9.7,Superb,9,9.8,10.0,9.8
+8.4,Hanoi,7.6,Vietnam,0.5,7.7,Hostel,9.9,Halley Hostel,US$4.24,8.6,Fabulous,124,9.2,9.3,8.5
+7.5,Hanoi,7.8,Vietnam,1.1,7.8,Bed and Breakfast,9.2,Suite As Hostel,US$5.00,8.3,Fabulous,48,8.5,9.0,8.3
+8.1,Hanoi,8.7,Vietnam,1.1,8.9,Hostel,9.6,Hanoi Tomodachi House,US$6.00,9.0,Superb,776,9.0,9.6,9.3
+7.4,Hanoi,9.4,Vietnam,0.5,8.6,Bed and Breakfast,9.1,Hanoi House Hostel & Travel,US$13.28,8.7,Fabulous,94,9.3,8.6,8.6
+8.9,Hanoi,10.0,Vietnam,3.2,9.7,Hostel,7.9,Chip’s House,US$7.71,9.4,Superb,27,9.9,9.7,9.8
+7.2,Hanoi,7.6,Vietnam,0.6,8.2,Hostel,9.3,Hay Hostel Hanoi Old Quarter,US$9.00,8.4,Fabulous,158,8.9,8.8,8.6
+8.8,Hanoi,9.6,Vietnam,0.8,9.1,Hostel,9.9,O Quan Chuong Homestay and Coffee,US$5.89,9.4,Superb,16,9.4,9.4,9.5
+8.3,Hanoi,8.3,Vietnam,0.8,8.2,Hostel,9.5,Hanoi City Backpackers Hostel,US$5.20,8.7,Fabulous,547,8.7,9.0,9.0
+5.3,Hue,8.0,Vietnam,1.2,7.7,Hostel,8.3,TOVO Hostel,US$4.28,7.4,Very Good,11,7.7,7.0,7.7
+9.0,Hue,9.0,Vietnam,0.5,9.0,Bed and Breakfast,10.0,Hue Sweethouse Homestay,US$9.50,9.4,Superb,5,9.0,10.0,10.0
+8.0,Hue,8.3,Vietnam,1.4,7.9,Hostel,9.7,Bonjour Hostel,US$5.00,8.8,Fabulous,304,9.2,9.6,8.9
+8.5,Hue,8.8,Vietnam,1.9,9.3,Hotel,9.0,Nam Phuong Riverside Villa,US$4.50,9.2,Superb,44,8.8,10.0,10.0
+9.1,Hue,8.7,Vietnam,1.4,8.6,Hostel,9.6,Freedom Hostel,US$5.00,9.2,Superb,393,9.2,9.5,9.4
+10.0,Hue,10.0,Vietnam,1.7,10.0,Bed and Breakfast,10.0,Hue Sweethouse 2 Homestay,US$8.25,10.0,Superb,28,10.0,10.0,10.0
+7.9,Hue,8.8,Vietnam,1.4,8.6,Hostel,9.8,Bon Ami Hostel,US$5.00,9.0,Superb,179,9.3,9.6,9.2
+,Hue,,Vietnam,2.2,,Bed and Breakfast,,La Luz Del Sol Homestay,US$5.89,,No Rating,0,,,
+2.0,Hue,6.0,Vietnam,1.1,2.0,Hostel,6.0,Baloo Hostel,US$4.75,3.4,Rating,3,4.0,2.0,2.0
+9.4,Hue,9.6,Vietnam,5.6,9.7,Hostel,8.3,Nano Eco Hostel,US$7.71,9.4,Superb,34,9.8,9.5,9.5
+7.4,Hue,8.9,Vietnam,1.1,7.4,Hostel,9.1,Buncha House,US$4.00,8.5,Fabulous,204,8.5,9.8,8.8
+8.2,Hue,9.2,Vietnam,0.9,8.9,Hotel,9.2,Sunny A Hotel,US$6.00,9.1,Superb,191,9.4,9.4,9.2
+8.4,Hue,9.5,Vietnam,1.5,9.0,Hostel,9.8,Shark Hostel,US$3.50,9.3,Superb,141,9.3,9.8,9.6
+8.6,Hue,9.2,Vietnam,1.2,8.9,Hostel,9.8,Why Not Hostel,US$5.33,9.2,Superb,1067,8.9,9.7,9.5
+10.0,Hue,10.0,Vietnam,0.6,10.0,Bed and Breakfast,10.0,Hue Diep's Homestay,US$8.00,10.0,Superb,2,10.0,10.0,10.0
+9.3,Hue,8.3,Vietnam,1.9,8.8,Bed and Breakfast,9.3,Kims Homestay,US$3.00,9.0,Superb,57,9.3,9.3,9.0
+8.7,Hue,10.0,Vietnam,1.1,10.0,Hostel,9.3,Hue Amy Homestay,US$6.15,9.6,Superb,51,9.3,10.0,10.0
+8.1,Hue,9.3,Vietnam,2.6,9.6,Hostel,7.4,Forever Young Hostel,US$6.00,9.0,Superb,116,9.6,9.7,9.5
+8.5,Hue,9.7,Vietnam,1.8,8.3,Hotel,8.9,Charming Riverside Hotel,US$7.50,9.1,Superb,285,9.4,9.7,9.4
+8.8,Hue,9.6,Vietnam,2.5,9.6,Hostel,8.4,Sahi Homestay Retreat,US$16.27,9.0,Superb,5,8.8,8.8,9.2
+8.8,Hue,9.4,Vietnam,1.4,9.0,Hostel,9.9,Hue Happy Homestay,US$4.50,9.4,Superb,1985,9.5,9.7,9.6
+8.4,Hue,9.3,Vietnam,1.4,8.2,Hostel,9.3,IBIZA Guest House,US$4.00,9.1,Superb,356,9.3,9.5,9.3
+8.3,Hue,8.8,Vietnam,1.5,8.4,Hostel,9.8,Amy 2 Hostel Hue,US$3.64,9.1,Superb,271,9.3,9.8,9.6
+8.6,Hue,8.3,Vietnam,1.4,8.6,Hostel,9.5,New Life Homestay,US$5.78,9.0,Superb,334,8.9,9.8,9.3
+7.9,Hue,8.7,Vietnam,1.4,8.5,Hostel,9.6,The Dreamers,US$4.75,8.9,Fabulous,464,9.0,9.4,9.2
+8.5,Hue,7.6,Vietnam,1.2,7.6,Hostel,9.3,Hue Vietnam Backpacker Hostels,US$6.17,8.3,Fabulous,2044,8.5,8.7,8.3
+8.8,Hue,9.7,Vietnam,1.7,9.2,Hostel,9.2,The Dreamers House,US$4.50,9.4,Superb,33,9.5,9.9,9.6
+8.1,Hue,8.3,Vietnam,1.3,8.1,Hostel,9.7,Hue Melody Hostel,US$3.00,8.9,Fabulous,207,9.1,9.6,9.3
+8.2,Hue,9.2,Vietnam,1.6,8.8,Hostel,9.5,Khe Sanh Homestay,US$3.76,9.1,Superb,918,9.3,9.5,9.4
+9.7,Hue,9.6,Vietnam,1.5,9.6,Bed and Breakfast,9.5,Loving Home Hue,US$6.50,9.7,Superb,46,9.8,10.0,9.9
+8.3,Hanoi,9.1,Vietnam,0.4,8.9,Hostel,9.5,Backy Poshtel,US$5.57,9.1,Superb,135,9.4,9.2,9.4
+8.1,Hanoi,9.3,Vietnam,0.9,8.9,Hostel,9.7,Hanoi Old Quarter Hostel,US$9.12,9.3,Superb,513,9.6,9.9,9.4
+8.9,Hanoi,9.1,Vietnam,4.4,9.0,Hostel,8.5,7 Fridays Hostel,US$7.09,9.1,Superb,358,9.6,9.2,9.1
+8.1,Hanoi,9.6,Vietnam,0.9,9.2,Hotel,9.8,Hanoi Culture Hostel,US$11.38,9.4,Superb,225,9.8,9.6,9.6
+8.5,Hanoi,8.5,Vietnam,0.8,8.6,Hostel,9.4,Babylon Garden Hostel,US$6.50,8.9,Fabulous,1348,9.4,9.0,8.8
+8.8,Hanoi,9.4,Vietnam,0.6,9.3,Hostel,9.8,Luxury Backpackers,US$7.00,9.4,Superb,924,9.7,9.6,9.5
+8.9,Hanoi,8.3,Vietnam,0.7,8.7,Hostel,9.6,Hanoi Vietnam Backpacker Hostels Downtown,US$8.15,8.8,Fabulous,4741,8.8,8.7,8.8
+8.7,Hanoi,8.2,Vietnam,0.8,8.3,Hostel,9.6,Flipside Hostel,US$6.00,8.7,Fabulous,1187,9.0,8.9,8.5
+8.9,Hanoi,9.5,Vietnam,0.5,9.2,Hostel,9.9,Nexy Hostel,US$7.93,9.5,Superb,1906,9.7,9.7,9.3
+8.6,Hanoi,8.8,Vietnam,0.7,8.9,Hostel,9.8,Cocoon Inn Hanoi,US$8.00,9.1,Superb,1959,9.5,9.3,9.1
+9.1,Hanoi,9.4,Vietnam,0.6,9.2,Hostel,9.8,Old Quarter View Hanoi Hostel,US$6.00,9.4,Superb,3206,9.6,9.4,9.4
+9.0,Hanoi,9.8,Vietnam,0.7,9.5,Hostel,9.8,Little Charm Hanoi Hostel,US$10.00,9.6,Superb,1218,9.7,9.4,9.6
+8.9,Hanoi,8.6,Vietnam,0.9,8.7,Hostel,9.6,Hanoi Central Backpackers Hostel,US$5.00,9.1,Superb,4404,9.3,9.1,9.2
+9.1,Hanoi,9.1,Vietnam,1.3,9.1,Hostel,9.3,Republik Backpackers Hostel,US$5.73,9.3,Superb,1516,9.3,9.6,9.4
