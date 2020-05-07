@@ -6,7 +6,7 @@ import math
 class HostelworldSpider(Spider) :
     name = 'hostelworld_spider'
     allowed_urls = ['https://www.hostelworld.com']
-    start_urls = ['https://www.hostelworld.com/hostels/Siem-Reap/Cambodia','https://www.hostelworld.com/hostels/Phnom-Penh/Cambodia','https://www.hostelworld.com/hostels/Kampot/Cambodia','https://www.hostelworld.com/hostels/Koh-Rong-Samloem/Cambodia','https://www.hostelworld.com/hostels/Sihanoukville/Cambodia']
+    start_urls = ['https://www.hostelworld.com/hostels/Singapore/Singapore']
 
 
 
@@ -52,9 +52,13 @@ class HostelworldSpider(Spider) :
         place = response.xpath('//div[@class="addressline"]/text()').extract()
         place = list(map(lambda x: re.findall('[0-9]*\.?[0-9]', x), place[1::2]))
         distance = []
+
         for x in place:
             for y in x:
                 distance.append(y)
+        if len(distance)==0:
+            for i in range(len(hostel_urls)):
+                distance.append('unknown')
 
         price = response.xpath('//span[@class="price"]/text()').extract()
 
@@ -64,6 +68,14 @@ class HostelworldSpider(Spider) :
 
         zipped = zip(hostel_urls, kind, distance, price)
 
+        #IT WAS STILL WORKING UP TO THIS POINT!
+        print('='*55)
+        print('hostel_urls:',len(hostel_urls))
+        print('kind:',len(kind))
+        print('distance:',len(distance))
+        print('price:',len(price))
+        print('='*55)
+        
         for hostel_urls, kind, distance, price in zipped:
             yield Request(url=response.urljoin(hostel_urls), callback=self.parse_hostel_page, meta={'kind':kind, 'distance':distance, 'price':price})
 
@@ -71,6 +83,11 @@ class HostelworldSpider(Spider) :
 
     def parse_hostel_page(self, response) :
         
+        #NOT WORKING HERE!
+        # print('='*55)
+        # print('still working!!!')
+        # print('='*55)
+
         city = response.xpath('//span[@class="adddress"]/a[2]/text()').extract_first()
         print('='*55)
         print(city)
