@@ -133,7 +133,16 @@ class HostelworldSpider(Spider) :
         except:
             facilities = ""
 
-        # free = 
+        try:
+            place4 = list(map(str.strip, response.xpath('//div[@class="description-property"]//text()').extract()[3:]))
+            description = ' '.join(place4)
+        except:
+            description = ""
+
+        # try:
+        free = ', '.join(list(map(str.strip, response.xpath('//ul[@class="row facility-group-items"]//li/text()').extract())))
+        # except:
+
 
         # general = 
 
@@ -161,7 +170,8 @@ class HostelworldSpider(Spider) :
         item['atmosphere'] = atmosphere
         item['cleanliness'] = cleanliness
         item['facilities'] = facilities
-        # item['free'] = free
+        item['description'] = description
+        item['free'] = free
         # item['general'] = general
         # item['services'] = services
         # item['food_drink'] = food_drink
