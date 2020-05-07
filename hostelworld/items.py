@@ -26,7 +26,7 @@ class HostelworldItem(scrapy.Item):
     cleanliness = scrapy.Field()
     facilities = scrapy.Field()
     description = scrapy.Field()
-    free = scrapy.Field()
+    services = scrapy.Field()
     # general = scrapy.Field()
     # services = scrapy.Field()
     # food_drink = scrapy.Field()

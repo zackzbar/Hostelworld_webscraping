@@ -6,18 +6,20 @@ import math
 class HostelworldSpider(Spider) :
     name = 'hostelworld_spider'
     allowed_urls = ['https://www.hostelworld.com']
-    start_urls =    ['https://www.hostelworld.com/hostels/Hanoi/Vietnam', 
-                     # 'https://www.hostelworld.com/hostels/Bangkok/Thailand',
+    start_urls = [#'https://www.hostelworld.com/hostels/Bangkok/Thailand',
+                     # 'https://www.hostelworld.com/hostels/Hanoi/Vietnam', 
                      # 'https://www.hostelworld.com/hostels/Ho-Chi-Minh/Vietnam',
-                     # 'https://www.hostelworld.com/hostels/Hoi-An/Vietnam',
+                     'https://www.hostelworld.com/hostels/Hoi-An/Vietnam']#,
                      # 'https://www.hostelworld.com/hostels/Da-Nang/Vietnam',
-                     'https://www.hostelworld.com/hostels/Hue/Vietnam']
+                     # 'https://www.hostelworld.com/hostels/Hue/Vietnam']
+
+
 
     def parse(self, response) :
-        # num = int(response.xpath('//span[@class="numPropertiesReturnedFromSearch"]/text()').extract_first())
-        # num = math.ceil(num/30)
+        num = int(response.xpath('//span[@class="numPropertiesReturnedFromSearch"]/text()').extract_first())
+        num = math.ceil(num/30)
 
-        num = 1
+        # num = 1
 
         num_pages = [f'?page={i+1}' for i in range(num)]
 
@@ -28,11 +30,10 @@ class HostelworldSpider(Spider) :
 
         print('='*55)
         print(len(result_urls))
-        print(result_urls)
         print('='*55)
 
         for url in result_urls:
-            yield Request(url=url, callback=self.parse_results_page)
+            yield Request(url=response.urljoin(url), callback=self.parse_results_page)
 
 
 
@@ -62,8 +63,8 @@ class HostelworldSpider(Spider) :
 
         zipped = zip(hostel_urls, kind, distance, price)
 
-        for url, kind, distance, price in zipped:
-            yield Request(url=url, callback=self.parse_hostel_page, meta={'kind':kind, 'distance':distance, 'price':price})
+        for hostel_urls, kind, distance, price in zipped:
+            yield Request(url=response.urljoin(hostel_urls), callback=self.parse_hostel_page, meta={'kind':kind, 'distance':distance, 'price':price})
 
 
 
@@ -139,9 +140,10 @@ class HostelworldSpider(Spider) :
         except:
             description = ""
 
-        # try:
-        free = ', '.join(list(map(str.strip, response.xpath('//ul[@class="row facility-group-items"]//li/text()').extract())))
-        # except:
+        try:
+            services = ', '.join(list(map(str.strip, response.xpath('//ul[@class="row facility-group-items"]//li/text()').extract())))
+        except:
+            services = ""
 
 
         # general = 
@@ -171,7 +173,7 @@ class HostelworldSpider(Spider) :
         item['cleanliness'] = cleanliness
         item['facilities'] = facilities
         item['description'] = description
-        item['free'] = free
+        item['services'] = services
         # item['general'] = general
         # item['services'] = services
         # item['food_drink'] = food_drink
