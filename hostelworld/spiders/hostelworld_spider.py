@@ -6,11 +6,11 @@ import math
 class HostelworldSpider(Spider) :
     name = 'hostelworld_spider'
     allowed_urls = ['https://www.hostelworld.com']
-    start_urls = ['https://www.hostelworld.com/hostels/Bangkok/Thailand',
-                    'https://www.hostelworld.com/hostels/Chiang-Mai/Thailand',
-                    'https://www.hostelworld.com/hostels/Phuket/Thailand',
-                    'https://www.hostelworld.com/hostels/Krabi/Thailand',
-                    'https://www.hostelworld.com/hostels/Koh-Phangan/Thailand']
+    start_urls = ['https://www.hostelworld.com/hostels/Cebu/Philippines',
+                    'https://www.hostelworld.com/hostels/Manila/Philippines',
+                    'https://www.hostelworld.com/hostels/El-Nido/Philippines',
+                    'https://www.hostelworld.com/hostels/Coron/Philippines',
+                    'https://www.hostelworld.com/hostels/Boracay-Island/Philippines']
 
 
 
@@ -47,6 +47,8 @@ class HostelworldSpider(Spider) :
 
         print('='*55)
         print(len(hostel_urls))
+        print('='*55)
+        print(hostel_urls)
         print('='*55)
 
         kind = list(map(str.strip, response.xpath('//div[@class="proptype featureline"]/text()').extract()))
