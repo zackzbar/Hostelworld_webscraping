@@ -6,11 +6,10 @@ import math
 class HostelworldSpider(Spider) :
     name = 'hostelworld_spider'
     allowed_urls = ['https://www.hostelworld.com']
-    start_urls = [#'https://www.hostelworld.com/hostels/Hanoi/Vietnam',
-                     # 'https://www.hostelworld.com/hostels/Bangkok/Thailand']#,
-                     # 'https://www.hostelworld.com/hostels/Ho-Chi-Minh/Vietnam',
+    start_urls = ['https://www.hostelworld.com/hostels/Hanoi/Vietnam',
+                     'https://www.hostelworld.com/hostels/Ho-Chi-Minh/Vietnam',
                      'https://www.hostelworld.com/hostels/Hoi-An/Vietnam',
-                     # 'https://www.hostelworld.com/hostels/Da-Nang/Vietnam',
+                     'https://www.hostelworld.com/hostels/Da-Nang/Vietnam',
                      'https://www.hostelworld.com/hostels/Hue/Vietnam']
 
 
@@ -42,9 +41,9 @@ class HostelworldSpider(Spider) :
         #hostel_urls = list(set(hostel_urls))[1:]
         hostel_urls = hostels[1::4]
         if hostel_urls[0]=='':
+            hostel_urls = hostels[2::4]
+        if hostel_urls[0]=='':
             hostel_urls = hostels[3::4]
-        ###### maybe add more ifs to make this comprehensive to even worse pages?
-
 
         print('='*55)
         print(len(hostel_urls))
