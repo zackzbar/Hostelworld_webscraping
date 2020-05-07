@@ -6,11 +6,7 @@ import math
 class HostelworldSpider(Spider) :
     name = 'hostelworld_spider'
     allowed_urls = ['https://www.hostelworld.com']
-    start_urls = ['https://www.hostelworld.com/hostels/Kuala-Lumpur/Malaysia',
-                    'https://www.hostelworld.com/hostels/Penang/Malaysia',
-                    'https://www.hostelworld.com/hostels/Langkawi/Malaysia',
-                    'https://www.hostelworld.com/hostels/Kota-Kinabalu/Malaysia',
-                    'https://www.hostelworld.com/hostels/Cameron-Highlands/Malaysia']
+    start_urls = ['https://www.hostelworld.com/hostels/Da-Nang/Vietnam']
 
 
 
@@ -72,7 +68,6 @@ class HostelworldSpider(Spider) :
 
         zipped = zip(hostel_urls, kind, distance, price)
 
-        #IT WAS STILL WORKING UP TO THIS POINT!
         print('='*55)
         print('hostel_urls:',len(hostel_urls))
         print('kind:',len(kind))
@@ -86,11 +81,6 @@ class HostelworldSpider(Spider) :
 
 
     def parse_hostel_page(self, response) :
-        
-        #NOT WORKING HERE!
-        # print('='*55)
-        # print('still working!!!')
-        # print('='*55)
 
         city = response.xpath('//span[@class="adddress"]/a[2]/text()').extract_first()
         print('='*55)
