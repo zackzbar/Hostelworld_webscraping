@@ -1,0 +1,15 @@
+Greetings!
+
+After traveling SE Asia for a year, I thought it would be fun to do some analysis on data from hostelworld.com, the go-to site for any long-term traveller.
+
+Using Scrapy, I scraped data from Hostelworld on May 8, 2020.
+
+Observations include every listed property from the top 5 destinations in each of the 11 SE Asian nations, and also Hong Kong. Fields include price, overall rating, component ratings, property description, and basic identifying info for each property.
+
+Scrapy files can be found in the hostelworld folder.
+
+This project was created during the NYC Data Science Academy Spring 2020 Data Science Bootcamp.
+
+Thank you to everyone who helped along the way! And thanks to Hostelworld for the mems :D
+
+-ZZ
