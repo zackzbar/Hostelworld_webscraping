@@ -1,0 +1,5 @@
+.DS_Store
+country_data
+__pycache__
+settings.py
+.ipynb_checkpoints

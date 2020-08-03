@@ -6,7 +6,9 @@ import math
 class HostelworldSpider(Spider) :
     name = 'hostelworld_spider'
     allowed_urls = ['https://www.hostelworld.com']
-    start_urls = ['https://www.hostelworld.com/hostels/Da-Nang/Vietnam']
+    start_urls = ['https://www.hostelworld.com/hostels/Da-Nang/Vietnam',
+                'https://www.hostelworld.com/hostels/Hoi-An/Vietnam',
+                'https://www.hostelworld.com/hostels/Hanoi/Vietnam']
 
 
 
